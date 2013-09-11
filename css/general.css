@@ -1,0 +1,85 @@
+@-moz-viewport { width: device-width; scale:1; }
+
+@-ms-viewport { width: device-width; scale:1; }
+
+@-o-viewport { width: device-width; scale:1; }
+
+@-webkit-viewport { width: device-width; scale:1; }
+
+@viewport { width: device-width; scale:1; }
+
+body {
+	background-color: #fff;
+	font: "Arial Black", Gadget, sans-serif;
+	background-image: url(photo1.jpg);
+	background-size: cover;
+	background-repear:no-repeat;
+	height: 100%;
+}
+
+article {
+	background-color: #fff;
+	padding: 0.5em;
+	width: 200px;
+}
+
+p {
+	font-size:12px;
+}
+ 
+.logo {
+	width: 100px;
+	padding-left: 3em;
+}
+
+.icon {
+	width: 100px;
+}
+
+h1 {
+	font-size: 20px;
+	font: "Arial Black", Gadget, sans-serif;
+}
+
+h2 {
+	font-size: 18px;
+	font: "Arial Black", Gadget, sans-serif;
+}
+
+@media only screen and (min-width: 25em) {
+	article {
+		width: 300px;
+	}
+	
+	.logo {
+		width: 200px;
+	}
+
+	.icon {
+		width: 200px;
+	}
+	
+	p {
+		font-size:15px;
+	}
+}
+
+@media only screen and (min-width: 37em) {
+	
+	article {
+		width: 400px;
+	}
+	
+	.logo {
+		width: 300px;
+		}
+
+	.icon {
+		width: 300px;
+	}
+	
+	p {
+		font-size:18px;
+	}
+}
+
